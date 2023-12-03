@@ -1,0 +1,18 @@
+.about-section {
+    display: flex;
+}
+
+.img-container {
+    background-color: red;
+    width: 40%;
+    height: 300px;
+
+}
+
+.description-container {
+    background-color: blue;
+    width: 60%;
+    height: 300px;
+
+}
+

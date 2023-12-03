@@ -1,0 +1,60 @@
+/*
+Responsive Design and the Breakpoints
+
+Good Practices: Add at least two media queries.
+
+Follow the breakpoints of Microsoft Documentation:
+
+Phone
+_ Small: (Smaller than 640):
+    @media(max-width:640){
+        style logic
+    }
+
+Tablet
+_ Medium: (641px and 1007px):
+    @media((min-width:641px)and (max-width:1007px)){
+        style logic
+    }
+
+*/
+
+@media(max-width:640px){
+    html {
+        font-size: 10px;
+    }
+
+    label {
+        cursor: pointer;
+    }
+    
+    header {
+        flex-direction: column;
+        height: max-content;
+        padding: 2%;
+    }
+
+    .nav-link {
+        flex-direction: column;
+    }
+
+    .nav-btn {
+        display: inline-block;
+    }
+
+    /*Toggle Function*/
+    #nav-check:not(:checked)~.nav-link{
+        height: 0px;
+        overflow: hidden;
+    }
+
+    #nav-check:checked~.nav-link{
+        height: auto;
+        overflow: auto;
+    }
+
+}
+
+@media((min-width:641px) and (max-width:1007px)){
+    html {font-size: 12px;}
+}

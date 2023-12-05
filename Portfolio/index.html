@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&family=Lobster&family=Merriweather:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/sections.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700&family=Lobster&family=Merriweather:wght@300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/sections.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <title>My name | Developer</title>
 </head>
 
 <body>
-
     <!--
     <h1>Hello!</h1>
     <h2>This is working</h2>
@@ -22,67 +24,136 @@
     -->
 
     <header class="center">
-
         <!--Left Side-->
 
         <div class="logo center">
-
             <a href="">
-
                 <h2>Tyler</h2>
-
             </a>
-
         </div>
-
 
         <!--Right Side-->
 
         <nav>
-
             <!--Hamburger Icon-->
 
-            <input type="checkbox" id="nav-check">
+            <input type="checkbox" id="nav-check" />
 
             <div class="nav-btn">
-
                 <label for="nav-check">
-
                     <span></span>
                     <span></span>
                     <span></span>
-
                 </label>
-
             </div>
 
             <!--Links or Options of the menu-->
 
             <div class="nav-link center">
-
                 <a href="">About Me</a>
                 <a href="">Projects</a>
                 <a href="">Experiences</a>
                 <a href="">Contact</a>
-
             </div>
-
         </nav>
-
     </header>
 
     <section class="about-section">
-
-        <div class="img-container">
-
+        <div class="img-container center">
+            <img id="about-img" src="img/logo.png" alt="logo" />
         </div>
 
-        <div class="description-container">
+        <div class="description-container center">
+            <div class="center" style="display: flex; flex-direction: column;">
+                <h1>Full Stack Developer</h1>
+                <h2>Tyler</h2>
+            </div>
 
+            <p>
+                <br />
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti,
+                nisi veniam quaerat autem eius est voluptate quasi dolorum eaque
+                labore placeat beatae quibusdam culpa vitae ipsa neque accusamus ipsum
+                eveniet.
+                <br />
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                soluta velit facere suscipit reprehenderit ducimus veniam ipsa dolorum
+                labore nostrum rerum aut assumenda, sint provident distinctio, tempore
+                debitis, dignissimos laudantium.
+                <br />
+                <br />
+            </p>
+
+            <div class="skills-list center">
+
+                <h2>Skills</h2>
+
+                <div class="skills center">
+                    <label> skills </label>
+                    <label> skills </label>
+                    <label> skills </label>
+                    <label> skills </label>
+                    <label> skills </label>
+                    <label> skills </label>
+                    <label> skills </label>
+                    <label> skills </label>
+                    <label> skills </label>
+                    <label> skills </label>
+                </div>
+            </div>
         </div>
-
     </section>
 
+    <section class="projects-section center">
+        <h2>Projects</h2>
+
+        <div class="projects-list">
+
+            <div class="project-card">
+                <a href="">
+                    <img src="img/picture-1.jpg" alt="picture1">
+                    <p>First Project Name</p>
+                    <p>This is the description for my first project as dev. This should be a short description.</p>
+                    <p> YYYY </p>
+                    <div class="technologies center">
+                        <label>Skill</label>
+                        <label>Skill</label>
+                        <label>Skill</label>
+                        <label>Skill</label>
+                    </div>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="">
+                    <img src="img/picture-2.jpg" alt="picture2">
+                    <p>Second Project Name</p>
+                    <p>This is the description for my second project as dev. This should be a short description.</p>
+                    <p> YYYY </p>
+                    <div class="technologies center">
+                        <label>Skill</label>
+                        <label>Skill</label>
+                        <label>Skill</label>
+                        <label>Skill</label>
+                    </div>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="">
+                    <img src="img/picture-3.jpg" alt="picture3">
+                    <p>Third Project Name</p>
+                    <p>This is the description for my third project as dev. This should be a short description.</p>
+                    <p> YYYY </p>
+                    <div class="technologies center">
+                        <label>Skill</label>
+                        <label>Skill</label>
+                        <label>Skill</label>
+                        <label>Skill</label>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
